@@ -1,0 +1,106 @@
+.footer {
+    background-color: #30c554;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .footer__logo img {
+    width: calc(100% - 80%);
+    margin-bottom: 5px;
+    background-color: #30c554;
+    border-radius: 50%;
+  }
+  .footer__logo h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .footer__logo p {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 28px;
+  }
+  
+  .delivery__time-list {
+    background: transparent !important;
+  }
+  .delivery__time-time span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    background: transparent;
+  }
+  .delivery__time-item {
+    background: transparent !important;
+  }
+  .footer__title {
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+  }
+  .newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .newsletter {
+    padding: 7px 25px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .newsletter input:focus {
+    outline: none;
+  }
+  .newsletter input::placeholder {
+    color: #212245;
+  }
+  .newsletter span i {
+    color: #fff;
+    padding: 7px 30px;
+  }
+  .newsletter span {
+    background: #ec534a;
+    padding: 7px 10px;
+  }
+  
+  .social__links span i {
+    padding: 5px;
+    background: red;
+    border-radius: 40%;
+    color: #fff;
+  }
+  .cpr {
+    font-size: 1.8rem;
+    color: red;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer__title {
+      font-size: 0.8rem;
+    }
+    .delivery__time-item span {
+      font-size: 0.8rem;
+    }
+    .delivery__time-item p {
+      font-size: 0.7rem;
+      margin-bottom: 0;
+    }
+    .newsletter > span i {
+      padding: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .newsletter input {
+      padding: 7px;
+      font-size: 0.7rem;
+    }
+    .newsletter span {
+      padding: 4px 20px;
+      font-size: 0.7rem;
+    }
+  }

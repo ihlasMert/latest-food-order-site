@@ -1,0 +1,15 @@
+.search__widget,
+.sorting__widget > select {
+  border: none;
+  padding: 15px 37px;
+  border: 5px groove green;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search__widget > input {
+  border: none;
+}
+
+.search__widget > input:focus {
+  outline: none;
+}
